@@ -6,6 +6,29 @@ exports[`APP should render the component 1`] = `
     <h1>
       Hello!! Welcome to phantom App.
     </h1>
+    <h2>
+      The following is the counter of number.
+    </h2>
+    <h3
+      aria-label="value"
+      id="value"
+    >
+      value: 0
+    </h3>
+    <button
+      aria-label="incrementButton"
+      id="incrementButton"
+      name="increment"
+    >
+      Increment
+    </button>
+    <button
+      aria-label="decrementButton"
+      id="decrementButton"
+      name="decrement"
+    >
+      decrement
+    </button>
   </div>
 </DocumentFragment>
 `;
