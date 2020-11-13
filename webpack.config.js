@@ -4,9 +4,10 @@ const ip = require("ip");
 const hostname = ip.address() || "localhost";
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index",
   output: { path: path.join(__dirname, "/dist"), filename: "bundle.js" },
   devServer: {
+    historyApiFallback: true,
     contentBase: path.resolve(__dirname, "./build"),
     publicPath: "/",
     host: `${hostname}`,
@@ -16,7 +17,7 @@ module.exports = {
     contentBase: "./",
     watchOptions: {
       poll: true,
-    },
+    }, 
     compress: true,
     open: true,
   },

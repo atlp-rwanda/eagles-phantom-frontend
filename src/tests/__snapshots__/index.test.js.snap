@@ -3,32 +3,237 @@
 exports[`APP should render the component 1`] = `
 <DocumentFragment>
   <div>
-    <h1>
-      Hello!! Welcome to phantom App.
-    </h1>
-    <h2>
-      The following is the counter of number.
-    </h2>
-    <h3
-      aria-label="value"
-      id="value"
+    <div
+      class="nav"
+      id="topnav"
     >
-      value: 0
-    </h3>
-    <button
-      aria-label="incrementButton"
-      id="incrementButton"
-      name="increment"
+      <a
+        class="logo"
+        href="/"
+      >
+        Phantoms
+      </a>
+      <div
+        class="nav_content"
+      >
+        <a
+          class="links"
+          href="/"
+        >
+           Home 
+        </a>
+        <a
+          class="links"
+          href="/about"
+        >
+           About 
+        </a>
+        <a
+          class="links"
+          href="/contact"
+        >
+           Contact 
+        </a>
+        <a
+          class="links"
+          href="/login"
+        >
+           Login 
+        </a>
+        <select
+          class="language"
+        >
+          <option>
+            Kiny
+          </option>
+          <option>
+            English
+          </option>
+          <option>
+            Francais
+          </option>
+        </select>
+      </div>
+      <a
+        class="icon"
+        href="topnav"
+      >
+        <i
+          class="fa fa-bars"
+        />
+      </a>
+    </div>
+    <div>
+      <h1>
+        Hello!
+      </h1>
+    </div>
+    <div
+      class="footer"
     >
-      Increment
-    </button>
-    <button
-      aria-label="decrementButton"
-      id="decrementButton"
-      name="decrement"
-    >
-      decrement
-    </button>
+      <div
+        class="footer_info"
+      >
+        <div
+          class="footer_quick_link"
+        >
+          <a
+            class="footer_links"
+            href="/about"
+          >
+            <b>
+               About Us
+            </b>
+             
+          </a>
+          <br />
+          <br />
+          <br />
+          <a
+            class="footer_links"
+            href="/"
+          >
+             
+            <b>
+              Services
+            </b>
+             
+          </a>
+          <br />
+          <br />
+          <br />
+          <a
+            class="footer_links"
+            href="/"
+          >
+             
+            <b>
+              Terms of Use and Conditions
+            </b>
+             
+          </a>
+          <br />
+          <br />
+        </div>
+        <div
+          class="social-medias"
+        >
+          <h4>
+            Follows us on:
+          </h4>
+          <br />
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+              <b>
+                 Facebook
+              </b>
+            </a>
+          </li>
+           
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+              <b>
+                 Instagram
+              </b>
+            </a>
+          </li>
+           
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+              <b>
+                 Twitter
+              </b>
+            </a>
+          </li>
+           
+        </div>
+        <div
+          class="address"
+        >
+          <h4>
+            Contact Us On:
+          </h4>
+          <h3>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-phone"
+              />
+               +(250)788-620-444
+            </a>
+          </h3>
+          <h3>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-envelope"
+              />
+               phantom@gmail.com
+            </a>
+          </h3>
+        </div>
+        <div
+          class="social-medias-1"
+        >
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+            </a>
+          </li>
+           
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+            </a>
+          </li>
+           
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+            </a>
+          </li>
+           
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="copyright"
+      >
+        <h4>
+          ©2020 Phantom. All Rights Reserved.
+        </h4>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
