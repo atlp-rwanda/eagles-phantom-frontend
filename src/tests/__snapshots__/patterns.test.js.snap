@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Patterns shoould render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="patterns_with"
+  >
+    <h3
+      class="patterns_title"
+    >
+      Our Parteners
+    </h3>
+    <div
+      class="patterns_card"
+    >
+      <div
+        class="patterns"
+      >
+        <p>
+          RFTC
+        </p>
+      </div>
+      <div
+        class="patterns"
+      >
+        <p>
+          Royal
+        </p>
+      </div>
+      <div
+        class="patterns"
+      >
+        <p>
+          AC Group ltd
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

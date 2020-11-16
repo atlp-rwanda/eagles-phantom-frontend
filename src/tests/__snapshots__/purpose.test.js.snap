@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Purpose shoould render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="purposeApp"
+  >
+    <h1
+      class="purposeApp__title"
+    >
+      Welcome to Phantom App
+    </h1>
+    <input
+      class="travelBtn btn btn-primary"
+      type="submit"
+      value="Travel with Us"
+    />
+     
+    <div
+      class="purposeApp__card"
+    >
+      <div
+        class="about"
+      >
+        <p>
+          Track your bus with us wherever you’re in Kigali and explore the city without  going on the bus-stop lines
+        </p>
+      </div>
+      <div
+        class="about"
+      >
+        <p>
+          Give us both your destination and location; we’ll help you know when the bus will pick you.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

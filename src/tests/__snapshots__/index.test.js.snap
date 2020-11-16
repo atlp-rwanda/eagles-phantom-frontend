@@ -3,235 +3,313 @@
 exports[`APP should render the component 1`] = `
 <DocumentFragment>
   <div>
-    <div
-      class="nav"
-      id="topnav"
-    >
-      <a
-        class="logo"
-        href="/"
+    <div>
+      <nav
+        class="nav navbar navbar-expand-lg navbar-dark"
       >
-        Phantoms
-      </a>
+        <a
+          class="navbar-brand"
+          href="#home"
+        >
+          Phantom
+        </a>
+        <button
+          aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
+          class="navbar-toggler collapsed"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="navbar-collapse collapse"
+          id="responsive-navbar-nav"
+        >
+          <div
+            class="justify-content-end navbar-nav"
+          >
+            <div
+              class="nav_link nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="#"
+                href="#"
+                role="button"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="AboutUs"
+                href="AboutUs"
+              >
+                About
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="/ContactUs"
+                href="/ContactUs"
+              >
+                Contact
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="/login"
+                href="/login"
+              >
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+        <form
+          class=""
+        >
+          <select
+            class="form-control"
+          >
+            <option>
+              English
+            </option>
+            <option>
+              Francais
+            </option>
+            <option>
+              Kinyarwanda
+            </option>
+          </select>
+        </form>
+      </nav>
       <div
-        class="nav_content"
+        class="purposeApp"
       >
-        <a
-          class="links"
-          href="/"
+        <h1
+          class="purposeApp__title"
         >
-           Home 
-        </a>
-        <a
-          class="links"
-          href="/about"
+          Welcome to Phantom App
+        </h1>
+        <input
+          class="travelBtn btn btn-primary"
+          type="submit"
+          value="Travel with Us"
+        />
+         
+        <div
+          class="purposeApp__card"
         >
-           About 
-        </a>
-        <a
-          class="links"
-          href="/contact"
-        >
-           Contact 
-        </a>
-        <a
-          class="links"
-          href="/login"
-        >
-           Login 
-        </a>
+          <div
+            class="about"
+          >
+            <p>
+              Track your bus with us wherever you’re in Kigali and explore the city without  going on the bus-stop lines
+            </p>
+          </div>
+          <div
+            class="about"
+          >
+            <p>
+              Give us both your destination and location; we’ll help you know when the bus will pick you.
+            </p>
+          </div>
+        </div>
+      </div>
+      <form
+        class="search"
+      >
         <select
-          class="language"
+          class="origin"
         >
-          <option>
-            Kiny
+          <option
+            disabled=""
+          >
+            Origin
           </option>
           <option>
-            English
+            Nyabugogo
           </option>
           <option>
-            Francais
+            Downtown
+          </option>
+          <option>
+            Kacyiru
+          </option>
+          <option>
+            Remera
           </option>
         </select>
-      </div>
-      <a
-        class="icon"
-        href="topnav"
-      >
-        <i
-          class="fa fa-bars"
-        />
-      </a>
-    </div>
-    <div>
-      <h1>
-        Hello!
-      </h1>
-    </div>
-    <div
-      class="footer"
-    >
+        <select
+          class="destination"
+        >
+          <option
+            disabled=""
+          >
+            Destination
+          </option>
+          <option>
+            Kimironko
+          </option>
+          <option>
+            Downtown
+          </option>
+          <option>
+            Kacyiru
+          </option>
+          <option>
+            Remera
+          </option>
+        </select>
+        <button
+          class="searchBtn"
+          type="submit"
+        >
+          <i
+            class="fa fa-search"
+          />
+           Search
+        </button>
+      </form>
       <div
-        class="footer_info"
+        class="patterns_with"
+      >
+        <h3
+          class="patterns_title"
+        >
+          Our Parteners
+        </h3>
+        <div
+          class="patterns_card"
+        >
+          <div
+            class="patterns"
+          >
+            <p>
+              RFTC
+            </p>
+          </div>
+          <div
+            class="patterns"
+          >
+            <p>
+              Royal
+            </p>
+          </div>
+          <div
+            class="patterns"
+          >
+            <p>
+              AC Group ltd
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer"
       >
         <div
-          class="footer_quick_link"
+          class="footer_links"
         >
-          <a
-            class="footer_links"
-            href="/about"
+          <div
+            class="footer_quick_link"
           >
-            <b>
-               About Us
-            </b>
-             
-          </a>
-          <br />
-          <br />
-          <br />
-          <a
-            class="footer_links"
-            href="/"
+            <a
+              class="footer_links"
+              href="/about"
+            >
+               Abouts  
+            </a>
+            <a
+              class="footer_links"
+              href="/about"
+            >
+               services  
+            </a>
+            <a
+              class="footer_links"
+              href="/about"
+            >
+               Terms and Conditions 
+            </a>
+          </div>
+          <div
+            class="social-media"
           >
-             
-            <b>
-              Services
-            </b>
-             
-          </a>
-          <br />
-          <br />
-          <br />
-          <a
-            class="footer_links"
-            href="/"
+            <h4>
+              Follows us on
+            </h4>
+            <span>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-facebook"
+                />
+              </a>
+            </span>
+             
+            <span>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-twitter"
+                />
+              </a>
+            </span>
+             
+            <span>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-instagram"
+                />
+              </a>
+            </span>
+             
+          </div>
+          <div
+            class="address"
           >
-             
-            <b>
-              Terms of Use and Conditions
-            </b>
-             
-          </a>
-          <br />
-          <br />
-        </div>
-        <div
-          class="social-medias"
-        >
-          <h4>
-            Follows us on:
-          </h4>
-          <br />
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-facebook"
-              />
-              <b>
-                 Facebook
-              </b>
-            </a>
-          </li>
-           
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-instagram"
-              />
-              <b>
-                 Instagram
-              </b>
-            </a>
-          </li>
-           
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-twitter"
-              />
-              <b>
-                 Twitter
-              </b>
-            </a>
-          </li>
-           
-        </div>
-        <div
-          class="address"
-        >
-          <h4>
-            Contact Us On:
-          </h4>
-          <h3>
-            <a
-              href="#"
-            >
+            <h5>
+              Contacts
+            </h5>
+            <h4>
               <i
                 class="fa fa-phone"
               />
-               +(250)788-620-444
-            </a>
-          </h3>
-          <h3>
-            <a
-              href="#"
-            >
+                +(250)787-423-277
+            </h4>
+            <h4>
               <i
                 class="fa fa-envelope"
               />
                phantom@gmail.com
-            </a>
+            </h4>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="copyrights"
+        >
+          <h3>
+            © Copyrights reserved 2020.
           </h3>
         </div>
-        <div
-          class="social-medias-1"
-        >
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-facebook"
-              />
-            </a>
-          </li>
-           
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-instagram"
-              />
-            </a>
-          </li>
-           
-          <li>
-            <a
-              href="#"
-            >
-              <i
-                class="fa fa-twitter"
-              />
-            </a>
-          </li>
-           
-        </div>
-      </div>
-      <br />
-      <br />
-      <div
-        class="copyright"
-      >
-        <h4>
-          ©2020 Phantom. All Rights Reserved.
-        </h4>
       </div>
     </div>
   </div>
