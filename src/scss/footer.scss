@@ -1,0 +1,90 @@
+.footer{
+    background-color: white;
+}
+.footer_links{
+    display: flex;
+}
+.footer_quick_link{
+    margin: 1rem 2rem;
+    width: 30rem;
+    margin-top: 12px;
+}
+.social-media{
+    margin: 1rem 2rem;
+    width: 30rem;
+    margin-top: 12px;
+}
+.address{
+    width: 30rem;
+    margin-top: 12px;
+}
+.social-media span{
+margin: 5rem 3rem auto;
+padding-top: 3rem;
+font-size:24px;
+}
+.social-media i{
+    color: black;
+}
+.social-media h4{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-weight: lighter;
+font-size: 26px;
+line-height: 42px;
+text-align: center;
+align-items: center;
+letter-spacing: 0.11em;
+color: black;
+}
+.footer_links{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-weight: lighter;
+font-size: 26px;
+line-height: 42px;
+text-align: center;
+align-items: center;
+letter-spacing: 0.11em;
+color: black;
+}
+.copyrights{
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 10px;
+line-height: 30px;
+height: 5rem;
+text-align: center;
+letter-spacing: 0.1em;
+background-color: black;
+}
+.copyrights h3{
+    color: white;
+}
+@media only screen and (max-width: 700px){
+    .footer_links{
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 1px;
+    }
+    .social-media{
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 1px;
+    }
+    .social-media h4{
+        font-size: 15px;
+    }
+    .address{
+        font-size: 7px;
+        line-height: 7px;
+        margin-left:1px;
+    }
+    .address h5{
+        font-size: 15px;
+    }
+    .address h4{
+        font-size: 15px;
+    }
+}

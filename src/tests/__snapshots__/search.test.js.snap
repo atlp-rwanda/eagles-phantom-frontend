@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render the component 1`] = `
+<DocumentFragment>
+  <form
+    class="search"
+  >
+    <select
+      class="origin"
+    >
+      <option
+        disabled=""
+      >
+        Origin
+      </option>
+      <option>
+        Nyabugogo
+      </option>
+      <option>
+        Downtown
+      </option>
+      <option>
+        Kacyiru
+      </option>
+      <option>
+        Remera
+      </option>
+    </select>
+    <select
+      class="destination"
+    >
+      <option
+        disabled=""
+      >
+        Destination
+      </option>
+      <option>
+        Kimironko
+      </option>
+      <option>
+        Downtown
+      </option>
+      <option>
+        Kacyiru
+      </option>
+      <option>
+        Remera
+      </option>
+    </select>
+    <button
+      class="searchBtn"
+      type="submit"
+    >
+      <i
+        class="fa fa-search"
+      />
+       Search
+    </button>
+  </form>
+</DocumentFragment>
+`;

@@ -1,0 +1,58 @@
+
+.travelBtn{
+    background-color: #1D1745;
+    align-items: center;
+    margin-left: 10px
+}
+.purposeApp__title{
+    color: #1D1745;
+    text-align: center;
+}
+.purposeApp__card{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.purposeApp{
+    background-image: url('../../images/image.jpg');
+    padding-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    padding: 3rem 1rem;
+    flex: 1;
+    background-color: #fff;
+    margin: auto 8%;
+}
+.about p{
+    font-size: 1.3rem;
+    flex: 0.5;
+    line-height: 1.5;
+}
+.patterns{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    padding: 3rem 1rem;
+    flex: 1;
+    background-color: white;
+    margin: auto 8%;
+}
+.patterns_with{
+    background-image:rgba(0, 63, 67, 0.8);
+    padding-top: 5%;
+}
+.patterns_card{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.patterns_title{
+    color: #1D1745;
+    text-align: center;
+}
