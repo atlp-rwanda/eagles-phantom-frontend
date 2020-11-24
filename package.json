@@ -10,7 +10,8 @@
     "dev": "webpack-cli serve --mode development ",
     "build": "webpack --mode production",
     "start": "npm run build & serve -s ./dist ",
-    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "compile:sass": "sass sass/index.scss css/index.css -w"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -18,7 +19,11 @@
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/src/__mocks__/styleMock.js"
+    }
   },
   "repository": {
     "type": "git",
@@ -38,6 +43,7 @@
     "@babel/preset-react": "^7.12.5",
     "@webpack-cli/init": "^1.0.3",
     "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -48,7 +54,7 @@
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^2.0.1",
     "serve": "^11.3.2",
-    "webpack": "^5.6.0",
+    "style-loader": "^2.0.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
@@ -66,6 +72,8 @@
     "jest": "^26.6.3",
     "jest-enzyme": "^7.1.2",
     "react-hot-loader": "^4.13.0",
-    "redux-mock-store": "^1.5.4"
+    "redux-mock-store": "^1.5.4",
+    "sass": "^1.29.0",
+    "webpack": "^5.6.0"
   }
 }
