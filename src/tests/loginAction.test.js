@@ -29,7 +29,7 @@ describe('ACTIONS', () => {
     expect(
       mockAxios.post
     ).toHaveBeenCalledWith(
-      'https://eagles-phantom-backend.herokuapp.com/api/v1/auth/login',
+      'https://phanton-back-ft-logout--xiikam.herokuapp.com/api/v1/auth/login',
       { email: 'email', password: 'password' }
     );
     // expect(results.type).toEqual(LOGIN_SUCCESS);
@@ -52,7 +52,7 @@ describe('ACTIONS', () => {
     expect(
       mockAxios.post
     ).toHaveBeenCalledWith(
-      'https://eagles-phantom-backend.herokuapp.com/api/v1/auth/login',
+      'https://phanton-back-ft-logout--xiikam.herokuapp.com/api/v1/auth/login',
       { email: 'email', password: 'password' }
     );
   });
@@ -73,7 +73,7 @@ describe('ACTIONS', () => {
     expect(
       mockAxios.post
     ).toHaveBeenCalledWith(
-      'https://eagles-phantom-backend.herokuapp.com/api/v1/auth/login',
+      'https://phanton-back-ft-logout--xiikam.herokuapp.com/api/v1/auth/login',
       { email: 'email', password: 'password' }
     );
   });

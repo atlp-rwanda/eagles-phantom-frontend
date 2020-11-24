@@ -5,11 +5,11 @@ export const loginAction = (data,history) => async (dispatch) => {
 
     try {
     dispatch(loginRequest());
-    const res = await axios.post("https://eagles-phantom-backend.herokuapp.com/api/v1/auth/login", data);
+    const res = await axios.post("https://phanton-back-ft-logout--xiikam.herokuapp.com/api/v1/auth/login", data);
 
     const user = await res.data;
     localStorage.setItem("token", user.token);
-    localStorage.setItem('user-data', JSON.stringify(user));
+    // localStorage.setItem('user-data', JSON.stringify(user));
 
     history.push('/dashboard')
     dispatch(loginSuccess(user));

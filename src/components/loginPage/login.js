@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { loginAction } from "../../redux/actions/loginAction";
 import { withRouter } from 'react-router-dom';
+import Navbar from '../landingPage/Navbar';
+import Footer from '../landingPage/Footer'
 import '../../scss/login.scss';
 
 class Login extends Component {
@@ -60,6 +62,7 @@ class Login extends Component {
   render() {
     return (
       <div className="login">
+        <Navbar/>
         <form onSubmit={(e) => this.onSubmit(e)}>
         <p
           id="loading"
@@ -105,6 +108,7 @@ class Login extends Component {
           <br />
           <br />
         </form>
+        <Footer/>
       </div>
     );
   }
