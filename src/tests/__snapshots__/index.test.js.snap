@@ -1,34 +1,428 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`APP should render the component 1`] = `
+exports[`APP should render the app component 1`] = `
 <DocumentFragment>
   <div>
-    <h1>
-      Hello!! Welcome to phantom App.
-    </h1>
-    <h2>
-      The following is the counter of number.
-    </h2>
-    <h3
-      aria-label="value"
-      id="value"
-    >
-      value: 0
-    </h3>
-    <button
-      aria-label="incrementButton"
-      id="incrementButton"
-      name="increment"
-    >
-      Increment
-    </button>
-    <button
-      aria-label="decrementButton"
-      id="decrementButton"
-      name="decrement"
-    >
-      decrement
-    </button>
+    <div>
+      <nav
+        class="nav navbar navbar-expand-lg navbar-dark"
+      >
+        <a
+          class="navbar-brand"
+          href="#home"
+        >
+          Phantom
+        </a>
+        <button
+          aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
+          class="navbar-toggler collapsed"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="navbar-collapse collapse"
+          id="responsive-navbar-nav"
+        >
+          <div
+            class="justify-content-end navbar-nav"
+          >
+            <div
+              class="nav_link nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="#"
+                href="#"
+                role="button"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="#"
+                href="#"
+                role="button"
+              >
+                About
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="#"
+                href="#"
+                role="button"
+              >
+                Contact
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                class="nav-link"
+                data-rb-event-key="#"
+                href="#"
+                role="button"
+              >
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+        <form
+          class=""
+        >
+          <select
+            class="form-control"
+          >
+            <option>
+              English
+            </option>
+            <option>
+              Francais
+            </option>
+            <option>
+              Kinyarwanda
+            </option>
+          </select>
+        </form>
+      </nav>
+      <div
+        id="registration"
+      >
+        <div
+          id="form"
+        >
+          <form>
+            <h1>
+              Registration
+            </h1>
+             
+            <br />
+            <label
+              for=""
+            >
+              Email
+            </label>
+            <br />
+            <input
+              aria-label="email"
+              name="email"
+              placeholder="email"
+              type="email"
+            />
+             
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              First name
+            </label>
+             
+            <br />
+            <input
+              aria-label="firstname"
+              name="firstname"
+              placeholder="firstname"
+              type="text"
+            />
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              Last name
+            </label>
+             
+            <br />
+            <input
+              aria-label="lastname"
+              name="lastname"
+              placeholder="lastname"
+              type="text"
+            />
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              Gender
+            </label>
+             
+            <br />
+            <select
+              aria-label="gender"
+              name="gender"
+              placeholder="Gender"
+              type="text"
+            >
+              <option
+                role="male"
+              >
+                MALE
+              </option>
+              <option>
+                FEMALE
+              </option>
+              <option>
+                UNDEFINED
+              </option>
+            </select>
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              Address
+            </label>
+             
+            <br />
+            <input
+              aria-label="address"
+              name="address"
+              placeholder="address"
+              type="text"
+            />
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              Role
+            </label>
+             
+            <br />
+            <input
+              aria-label="role"
+              name="role"
+              placeholder="role"
+              type="text"
+            />
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <label
+              for=""
+            >
+              Date of Birth
+            </label>
+             
+            <br />
+            <input
+              aria-label="dateofbirth"
+              name="dateofbirth"
+              placeholder="Date of birth"
+              type="date"
+            />
+            <br />
+            <span
+              class="badge badge-danger"
+            />
+            <br />
+            <input
+              aria-label="signup"
+              type="submit"
+              value="SIGN UP"
+            />
+          </form>
+        </div>
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          class="footer_info"
+        >
+          <div
+            class="footer_quick_link"
+          >
+            <a
+              class="footer_links"
+              href="/about"
+            >
+              <b>
+                 About Us
+              </b>
+               
+            </a>
+            <br />
+            <br />
+            <br />
+            <a
+              class="footer_links"
+              href="/"
+            >
+               
+              <b>
+                Services
+              </b>
+               
+            </a>
+            <br />
+            <br />
+            <br />
+            <a
+              class="footer_links"
+              href="/"
+            >
+               
+              <b>
+                Terms of Use and Conditions
+              </b>
+               
+            </a>
+            <br />
+            <br />
+          </div>
+          <div
+            class="social-medias"
+          >
+            <h4>
+              Follows us on:
+            </h4>
+            <br />
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-facebook"
+                />
+                <b>
+                   Facebook
+                </b>
+              </a>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-instagram"
+                />
+                <b>
+                   Instagram
+                </b>
+              </a>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-twitter"
+                />
+                <b>
+                   Twitter
+                </b>
+              </a>
+            </li>
+             
+          </div>
+          <div
+            class="address"
+          >
+            <h4>
+              Contact Us On:
+            </h4>
+            <h3>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-phone"
+                />
+                 +(250)788-620-444
+              </a>
+            </h3>
+            <h3>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-envelope"
+                />
+                 phantom@gmail.com
+              </a>
+            </h3>
+          </div>
+          <div
+            class="social-medias-1"
+          >
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-facebook"
+                />
+              </a>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-instagram"
+                />
+              </a>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                <i
+                  class="fa fa-twitter"
+                />
+              </a>
+            </li>
+             
+          </div>
+        </div>
+        <br />
+        <br />
+        <div
+          class="copyright__footer"
+        >
+          <h4>
+            ©2020 Phantom. All Rights Reserved.
+          </h4>
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
