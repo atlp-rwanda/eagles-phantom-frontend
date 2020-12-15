@@ -1,9 +1,9 @@
 import { createStore, compose, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
-import counterReducer from "../redux/reducers/counter";
+import registrationReducer from "../redux/reducers/registrationReducer";
 
 const rootReducer = combineReducers({
-  count: counterReducer,
+  register: registrationReducer,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
