@@ -8,7 +8,7 @@ import Home from './components/landingPage/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import '../src/scss/index.scss';
-
+import Map from './components/map/map';
 
 class App extends Component {
   render() {
@@ -36,6 +36,9 @@ class App extends Component {
             </Route>
             <Route path="/logout" component="Logout">
               <Logout />
+            </Route>
+            <Route path= '/map'>
+              <Map />
             </Route>
           </Switch>
           
