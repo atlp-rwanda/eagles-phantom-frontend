@@ -1,13 +1,33 @@
-# Phantom front-end
+# EAGLES PHANTOM FRONT-END
 
-# installation setup
+# ABOUT APP
+ Phantom app user-interface: Platform which facilitate the transportation mode in town.
 
--clone this repo 
-- run `npm install` for installation of all packages
-- run `npm start` for starting the app
-- run `npm test` for starting test
+# installation setup and running application
 
+-clone this repo using `git clone https://github.com/atlp-rwanda/eagles-phantom-frontend.git`
+- run `npm install` for installation of all depedencies
+- run `npm run dev` for starting the app
 
+# testing app
+- run `npm install` to install all dependencies
+- run `npm test` for testing
+
+# DEPLOYMENT
+  - https://eagles-frontend.herokuapp.com/
+
+# Team Eagles members
+  - Ally NENGO
+  - Ronald MUGEMA
+  - Joshua KARANGWA
+  - Anastase TUYIZERE
+
+# Technical Team Lead
+  Blaise IZABAYO
+ 
+# Team Lead
+  Samuel NISHIMWE
+  
 # Badges
 
 [![Build Status](https://travis-ci.com/atlp-rwanda/eagles-phantom-frontend.svg?branch=ch-setup-testing-environment-%23F82ebvCI)](https://travis-ci.com/atlp-rwanda/eagles-phantom-frontend)
