@@ -6,36 +6,48 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/01d0de2122241e34a3a2/maintainability)](https://codeclimate.com/github/atlp-rwanda/eagles-phantom-frontend/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/01d0de2122241e34a3a2/test_coverage)](https://codeclimate.com/github/atlp-rwanda/eagles-phantom-frontend/test_coverage)
 [![Coverage Status](https://coveralls.io/repos/github/atlp-rwanda/eagles-phantom-frontend/badge.svg?branch=develop)](https://coveralls.io/github/atlp-rwanda/eagles-phantom-frontend?branch=develop)
+![Githu](https://github.com/atlp-rwanda/eagles-phantom-frontend/workflows/Node.js%20CI/badge.svg?branch=develop)
 
 
 
 # ABOUT APP
- Phantom app user-interface: Platform which facilitate the transportation mode in town.
-
-# installation setup and running application
+ Phantom app user-interface: A Platform which facilitate the transportation mode in town.
+ 
+ # Dependencies 
+- [Javascript](https://www.javascript.com/)
+- [React js](https://reactjs.org/)
+- [Node js](https://nodejs.org/)
+- [Redux](https://redux.js.org/)
+- [Webpack](https://webpack.js.org/)
+- [Jest](https://jestjs.io/)
+- [Babel](https://babeljs.io/)
+- [Sass](https://sass-lang.com/)
+- [Html](https://html.com/)
+ 
+# Installation setup and running application
 
 -clone this repo using `git clone https://github.com/atlp-rwanda/eagles-phantom-frontend.git`
-- run `npm install` for installation of all depedencies
-- run `npm run dev` for starting the app
+- run `npm install` to install all depedencies
+- run `npm run dev` to run the app
 
-# testing app
+# Testing app 
 - run `npm install` to install all dependencies
 - run `npm test` for testing
 
-# DEPLOYMENT
-  - https://eagles-frontend.herokuapp.com/
+# DEPLOYMENT 
+  [Heroku](https://eagles-frontend.herokuapp.com/)
 
 # Team Eagles members
-  - Ally NENGO
-  - Ronald MUGEMA
-  - Joshua KARANGWA
-  - Anastase TUYIZERE
+  - [Ally NENGO](https://github.com/Ally4)
+  - [Ronald MUGEMA](https://github.com/Mugema123)
+  - [KARANGWA Ntwali Josue](https://github.com/Ntwali-Josue)
+  - [Anastase TUYIZERE](https://github.com/TuyizeeAnastase)
 
 # Technical Team Lead
-  Blaise IZABAYO
+  [Blaise IZABAYO](https://github.com/blaise82)
  
-# Team Lead
-  Samuel NISHIMWE
+# Team Manager
+  [Samuel NISHIMWE](https://github.com/ceelogre)
   
 
 
