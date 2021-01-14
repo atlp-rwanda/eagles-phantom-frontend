@@ -35,7 +35,7 @@
 - run `npm test` for testing
 
 # DEPLOYMENT 
-  [Heroku](https://eagles-frontend.herokuapp.com/)
+  [Heroku](https://eagles-phanton-frontend.herokuapp.com/)
 
 # Team Eagles members
   - [Ally NENGO](https://github.com/Ally4)
