@@ -3,10 +3,11 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from "./components/loginPage/login";
 import Logout from "./components/Logout"
 import Dashboard from "./components/loginPage/dashboard";
-import Error from './components/Error';
+import Map from './components/map/map';
 import Home from './components/landingPage/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import Error from './components/Error';
 import '../src/scss/index.scss';
 
 
@@ -28,8 +29,11 @@ class App extends Component {
             <Route path="/login">
               <Login />
             </Route>
-            {/* <Route component={Error}>
-            </Route> */}
+            <Route path="/map" component={Map}>
+              <Map />
+            </Route>
+            <Route component={Error}>
+            </Route>
             <Route path="/dashboard">
               <Dashboard />
               

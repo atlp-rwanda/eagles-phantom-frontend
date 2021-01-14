@@ -5,6 +5,7 @@ import Search from './Search';
 import Patterns from './Patterns';
 import Footer from './Footer';
 
+
 export default class LandingPage extends Component {
     render() {
         return (
@@ -12,7 +13,7 @@ export default class LandingPage extends Component {
               <NavBars />
               <Purpose />
               <Search />
-              <Patterns />
+              <Patterns /> 
               <Footer />
             </div>
         )
